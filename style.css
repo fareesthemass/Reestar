@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header--container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header--container h1{
+    font-size: 40px;
+}
+
+.header--container__elements li {
+    display: inline-block;
+    color: grey;
+    margin: 5px;
+}
+
+.header--container__elements li:hover{
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.food--container{
+    text-align: center;
+}
+
+.food--container__food{
+   display: inline-block;
+   width: 180px;
+   vertical-align: top;
+   border: solid black 2px;
+   margin: 2px;
+}
+
+.food--container__food img{
+    width: 180px;
+    height: 250px;
+}
+
+.food--container__button{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+} 
+
+.food--container__button:hover{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+
+.contact--container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.contact--container__element{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact--container__element input{
+    margin: 2px;
+}
+
+.contact--container__element input:focus{
+    outline: none;
+}
+
+.contact--container__element table{
+    text-align: center;
+    display: inline-block;
+}
+
+.contact--container__btn{
+    border-radius: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    width: 350px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+}
+
+.contact--container__btn:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+}
